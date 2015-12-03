@@ -1,0 +1,191 @@
+p, h1, h2, h3, h4, h5, h6 {
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    word-wrap: normal;
+}
+
+/* Common */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.bold { font-weight: bold; }
+.bolder { font-weight: bolder; }
+
+.no-margin { margin: 0px !important; }
+.margin-sides-10 { margin: 0px 10px; }
+.margin-sides-20 { margin: 0px 20px; }
+.margin-sides-50 { margin: 0px 50px; }
+.margin-updown-10 { margin: 10px 0px; }
+.margin-updown-20 { margin: 20px 0px; }
+.margin-updown-50 { margin: 50px 0px; }
+.margin-top-10 { margin-top: 10px; }
+.margin-top-20 { margin-top: 20px; }
+.margin-top-50 { margin-top: 50px; }
+.margin-left-10 { margin-left: 10px; }
+.margin-left-20 { margin-left: 20px; }
+.margin-left-50 { margin-left: 50px; }
+.margin-right-10 { margin-right: 10px; }
+.margin-right-20 { margin-right: 20px; }
+.margin-right-50 { margin-right: 50px; }
+.margin-bottom-10 { margin-bottom: 10px; }
+.margin-bottom-20 { margin-bottom: 20px; }
+.margin-bottom-50 { margin-bottom: 50px; }
+
+.padding-3 { padding: 3% !important; }
+.padding-5 { padding: 5% !important; }
+.padding-10 { padding: 10% !important; }
+
+/* Colorimetry for top colors */
+.enera-gray-1-color { color: #000 !important; }
+.enera-gray-2-color { color: #333 !important; }
+.enera-gray-3-color { color: #666 !important; }
+.enera-gray-4-color { color: #999 !important; }
+.enera-gray-5-color { color: #CCC !important; }
+.enera-gray-6-color { color: #FFF !important; }
+
+.enera-black-color { color: #000 !important; }
+.enera-white-color { color: #FFF !important; }
+.enera-red-color { color: #EF3E43 !important; }
+.enera-yellow-color { color: #FFB431 !important; }
+.enera-blue-color { color: #3D9AFF !important; }
+.enera-green-color { color: #4EC018 !important; }
+
+/* Colorimetry for background colors */
+.enera-gray-1-bg { background-color: #000 !important; }
+.enera-gray-2-bg { background-color: #333 !important; }
+.enera-gray-3-bg { background-color: #666 !important; }
+.enera-gray-4-bg { background-color: #999 !important; }
+.enera-gray-5-bg { background-color: #CCC !important; }
+.enera-gray-6-bg { background-color: #FFF !important; }
+
+.enera-black-bg { background-color: #000 !important; }
+.enera-white-bg { background-color: #FFF !important; }
+.enera-red-bg { background-color: #EF3E43 !important; }
+.enera-yellow-bg { background-color: #FFB431 !important; }
+.enera-blue-bg { background-color: #3D9AFF !important; }
+.enera-green-bg { background-color: #4EC018 !important; }
+
+/* Text styles */
+.font-150 { font-size: 1.5em; }
+.font-125 { font-size: 1.25em; }
+.font-100 { font-size: 1em; }
+.font-75 { font-size: 0.75em; }
+.font-50 { font-size: 0.5em; }
+.font-25 { font-size: 0.25em; }
+
+/* Image styles */
+.image-width-25 { width: 25%; }
+.image-width-50 { width: 50%; }
+.image-width-75 { width: 75%; }
+.image-width-100 { width: 100%; }
+
+.stripe img {
+    width: 100%;
+}
+
+/* Classes */
+.fixed-height { min-height: 600px; }
+
+.big-radio span.fp-radio {
+    width: 33px;
+    height: 33px;
+}
+.big-radio span.fp-radio::before {
+    line-height: 33px;
+    font-size: 18px;
+}
+
+.big-radio span.fp-radio input.icheck{
+    width: 33px;
+    height: 33px;
+}
+
+a.toggle_ap h6 {
+    color: red;
+}
+
+/* TODO: Implement a different view for mobile landscape and portrait */
+/*@media screen and (max-width: 400px) and (orientation:portrait) {
+    .fixed-height {
+        min-height: 600px;
+    }
+    div.container table.not_connected tr:nth-child(1) td img{
+        width:80%;
+        height:auto;
+    }
+    div.container table.not_connected tr:nth-child(2){
+        font-size:0.8em;
+    }
+    div.container div.message,
+    div#ap div#ap_content_container,
+    table.not_connected tr:nth-child(3) p{
+        font-size:0.6em;
+    }
+}*/
+
+/* Single items */
+#scroller-down {
+    right: 5%;
+    left: auto;
+}
+
+#navigate_button {
+    width: 80%;
+    max-width: 400px;
+}
+
+#small-header {
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+}
+    #small-header h3 {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+    }
+
+#footer { }
+    #footer p {
+        color: white;
+    }
+    #footer a:hover {
+        text-decoration: none;
+        cursor: pointer;
+    }
+    #footer a:hover p {
+        color: #999;
+    }
+
+img#logo {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 3px auto;
+}
+
+.radio-inline label {
+    display: inline;
+}
+
+/* TODO: Erase this style, is this style needed? */
+#showcase-container {
+    text-align: center;
+}
+    #showcase-container img {
+        /*max-height: 300px;*/
+        width: 100%;
+        margin: 10px;
+    }
+    #showcase-container .single-promotion {
+        margin: 10px;
+    }
+
+#promotions_container {}
+    #promotions_container img {
+        width: 100%;
+    }
+
